@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="mt-8 md:mt-32 text-white min-h-screen">
       <div className="flex justify-center items-center p-4">
         <div className="container mx-auto flex justify-center items-center">
-          <img src="/public/logo.svg" className="w-24 md:w-48 h-24 md:h-48" alt="" />
+          <img src="/src/assets/logo.svg" className="w-24 md:w-48 h-24 md:h-48" alt="" />
         </div>
       </div>
       <div className="flex flex-col items-center justify-center text-center my-8 md:my-16">
@@ -36,7 +36,7 @@ const Footer = () => {
               <a href="#" className="flex items-center gap-2 md:gap-4 py-2 md:py-4 px-2 md:px-4">
                 <img
                   className="w-[47px] md:w-16 h-[52px] lg:-mt-16 md:h-16"
-                  src="/public/logo.svg"
+                  src="/src/assets/logo.svg"
                   alt=""
                 />
                 <span className="text-white font-extrabold tracking-normal text-4xl lg:-mt-6 md:text-3xl">

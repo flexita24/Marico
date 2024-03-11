@@ -12,7 +12,7 @@ const Navbar = () => {
     <nav className="bg-transparent w-full z-20 top-0 start-0">
       <div className="flex flex-wrap items-center justify-between mx-4 md:mx-14 p-4">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="/public/logo.svg" className="h-8" alt="Flowbite Logo" />
+          <img src="/src/assets/logo.svg" className="h-8" alt="Flowbite Logo" />
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
             Marico
           </span>

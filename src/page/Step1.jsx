@@ -64,7 +64,7 @@ const Step1 = () => {
             />
           </div>
         </div>
-        <img src="/public/Screen.png" className="w-full md:w-1/2" alt="" />
+        <img src="/src/assets/Screen.png" className="w-full md:w-1/2" alt="" />
       </div>
     </>
   );

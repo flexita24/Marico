@@ -63,7 +63,7 @@ const Step3 = () => {
             />
           </div>
         </div>
-        <img src="/public/Screen (1).png" className="mt-8 md:mt-0" width={820} height={591} alt="" />
+        <img src="/src/assets/Screen (1).png" className="mt-8 md:mt-0" width={820} height={591} alt="" />
       </div>
     </>
   );
