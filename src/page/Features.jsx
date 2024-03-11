@@ -10,7 +10,7 @@ const Features = () => {
             {/* Feature 1 */}
             <div className="text-center md:w-1/3">
               <div className="mb-2 flex flex-col items-center md:gap-2">
-                <img className="w-10 h-10" src="/Smile_emoji.png" alt="" />
+                <img className="w-10 h-10" src="/assets/Smile_emoji.png" alt="" />
                 <h3 className="text-2xl md:text-4xl font-semibold text-white">
                   Reduced Anxiety
                 </h3>
@@ -23,7 +23,7 @@ const Features = () => {
             {/* Feature 2 */}
             <div className="text-center md:w-1/3">
               <div className="mb-2 flex flex-col items-center md:gap-2">
-                <img className="w-10 h-10" src="/Happy_emoji.png" alt="" />
+                <img className="w-10 h-10" src="/assets/Happy_emoji.png" alt="" />
                 <h3 className="text-2xl md:text-4xl font-semibold text-white">
                   Lower Workload
                 </h3>
@@ -36,7 +36,7 @@ const Features = () => {
             {/* Feature 3 */}
             <div className="text-center md:w-1/3">
               <div className="mb-2 flex flex-col items-center md:gap-2">
-                <img className="w-10 h-10" src="/Party_emoji.png" alt="" />
+                <img className="w-10 h-10" src="/assets/Party_emoji.png" alt="" />
                 <h3 className="text-2xl md:text-4xl font-semibold text-white">
                   More Time
                 </h3>

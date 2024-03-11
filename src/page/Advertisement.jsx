@@ -6,12 +6,12 @@ const Advertisement = () => {
             Experts Agree
           </h1>
           <img
-            src="/src/assets/Image.png"
+            src="/assets/Image.png"
             className="pt-8 md:pt-12 px-4 md:px-16 pb-16 md:pb-24 mx-auto"
             alt=""
           />
           <div
-            className="bg-[url('/src/assets/Image-5.png')] bg-center bg-cover bg-no-repeat md:h-screen flex items-center justify-center py-6 md:py-12 px-4 md:px-16"
+            className="bg-[url('/assets/Image-5.png')] bg-center bg-cover bg-no-repeat md:h-screen flex items-center justify-center py-6 md:py-12 px-4 md:px-16"
           >
             <h1 className="text-white font-semibold tracking-normal lg:text-6xl md:text-4xl text-center">
               We've helped over 1,000 creatorsre <br /> claim control of their audience.

@@ -32,7 +32,7 @@ const Step2 = () => {
             </h1>
           </div>
           <img
-            src="/src/assets/Mobile.png"
+            src="/assets/Mobile.png"
             className="lg:mt-32 md:mt-16 mx-auto lg:ml-[104px] md:ml-0 md:mr-8 overflow-hidden"
             alt=""
           />
