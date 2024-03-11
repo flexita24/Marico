@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-transparent w-full z-20 top-0 start-0">
-      <div className="flex flex-wrap items-center justify-between mx-4 md:mx-14 p-4">
+      <div className="flex flex-wrap items-center justify-between mx-4 md:mx-8 p-4">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src="/assets/logo.svg" className="h-8" alt="Flowbite Logo" />
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
@@ -21,7 +21,7 @@ const Navbar = () => {
           <Button className="bg-transparent text-[#707070] py-3 px-5" text="Login" />
           <Button className="bg-[#306EF7] py-3 px-5" text="Sign Up" />
         </div>
-        <div className="flex md:hidden">
+        <div className="flex md:hidden lg:hidden">
           <button
             onClick={toggleMenu}
             className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -49,7 +49,7 @@ const Navbar = () => {
               <button
                 id="dropdownNavbarLink"
                 data-dropdown-toggle="dropdownNavbar"
-                className="flex items-center justify-between w-full py-2 px-3 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+                className="flex items-center justify-between w-full py-2 px-3 text-white md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white"
               >
                 Use Cases{" "}
                 <svg

@@ -5,7 +5,11 @@ const Footer = () => {
     <div className="mt-8 md:mt-32 text-white min-h-screen">
       <div className="flex justify-center items-center p-4">
         <div className="container mx-auto flex justify-center items-center">
-          <img src="/assets/logo.svg" className="w-24 md:w-48 h-24 md:h-48" alt="" />
+          <img
+            src="/assets/logo.svg"
+            className="w-24 md:w-48 h-24 md:h-48"
+            alt=""
+          />
         </div>
       </div>
       <div className="flex flex-col items-center justify-center text-center my-8 md:my-16">
@@ -20,11 +24,12 @@ const Footer = () => {
           text="Get Started Now"
         />
         <div className="flex justify-center gap-2 md:gap-4 mt-6 md:mt-10">
-          <div className="w-6 h-6 bg-[#042F16] rounded-full opacity-25">
-            <span className="w-3 h-3 bg-[#32ff88] text-[#32ff88] rounded-full"></span>
-          </div>
+          <p className="h-[22px] w-[22px] rounded-full bg-green-900  ">
+            <p className=" ml-1 mt-1  h-[15px] w-[15px] rounded-full bg-green-500"></p>
+          </p>
           <p className="text-gray-600 text-lg md:text-xl lg:-mt-2 font-normal leading-6 md:leading-8 tracking-normal text-center">
-            <span className="text-white font-bold">1000+</span> creators have already started
+            <span className="text-white font-bold">1000+</span> creators have
+            already started
           </p>
         </div>
       </div>
@@ -33,7 +38,10 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex space-x-4 md:space-x-7">
             <div className="block">
-              <a href="#" className="flex items-center gap-2 md:gap-4 py-2 md:py-4 px-2 md:px-4">
+              <a
+                href="#"
+                className="flex items-center gap-2 md:gap-4 py-2 md:py-4 px-2 md:px-4"
+              >
                 <img
                   className="w-[47px] md:w-16 h-[52px] lg:-mt-16 md:h-16"
                   src="/assets/logo.svg"

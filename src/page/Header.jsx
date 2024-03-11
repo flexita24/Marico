@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 const Header = () => {
   return (
     <>
-      <header className="text-center">
+      <header className="text-center mx-auto align-items-center justify-center">
         <Navbar />
         <div className="heading pt-16 lg:pt-32 text-center align-items-center inline-block">
           <h1 className="text-white font-bold text-4xl lg:text-7xl tracking-normal text-center">
@@ -37,11 +37,9 @@ const Header = () => {
             />
           </div>
           <div className="flex justify-center items-center gap-2 mt-5 lg:mt-10">
-            <div className="w-6 h-6 bg-gray-800 rounded-full opacity-25">
-              <span className="w-3 h-3 bg-green-500 text-green-500 rounded-full flex items-center justify-center">
-                hi
-              </span>
-            </div>
+            <p className="h-[22px] w-[22px] rounded-full bg-green-900  ">
+              <p className=" ml-1 mt-1  h-[15px] w-[15px] rounded-full bg-green-500"></p>
+            </p>
 
             <p className="text-gray-600 text-lg lg:text-2xl font-normal leading-6 lg:leading-9 tracking-normal text-center flex gap-2">
               <span className="text-white text-lg lg:text-2xl font-bold leading-6 lg:leading-9 tracking-normal text-left">
