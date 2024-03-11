@@ -19,7 +19,7 @@ const Navbar = () => {
         </a>
         <div className="hidden md:flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <Button className="bg-transparent text-[#707070] py-3 px-5" text="Login" />
-          <Button className="bg-[#3C82F4] py-3 px-5" text="Sign Up" />
+          <Button className="bg-[#306EF7] py-3 px-5" text="Sign Up" />
         </div>
         <div className="flex md:hidden">
           <button
@@ -99,7 +99,7 @@ const Navbar = () => {
               <Button className="bg-transparent text-[#707070] py-3 px-5" text="Login" />
             </li>
             <li className="md:hidden">
-              <Button className="bg-[#3C82F4] py-3 px-5" text="Sign Up" />
+              <Button className="bg-blue-600 py-3 px-5" text="Sign Up" />
             </li>
           </ul>
         </div>
