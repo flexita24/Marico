@@ -6,7 +6,7 @@ const Features = () => {
           <h1 className="text-4xl md:text-7xl text-white font-semibold tracking-normal text-center">
             Why Creators Love Marico
           </h1>
-          <div className="space-y-6 md:space-y-0 md:flex md:justify-around md:pt-10">
+          <div className="space-y-[107px] md:space-y-0 md:flex md:justify-around md:pt-10 lg:mx-10 mt-12 mb-11">
             {/* Feature 1 */}
             <div className="text-center md:w-1/3">
               <div className="mb-2 flex flex-col items-center md:gap-2">
