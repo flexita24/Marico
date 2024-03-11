@@ -1,0 +1,7 @@
+export {default as Header } from './Header'
+export {default as Features } from './Features'
+export {default as Step1 } from './Step1'
+export {default as Step2 } from './Step2'
+export {default as Step3 } from './Step3'
+export {default as Advertisement } from './Advertisement'
+export {default as Footer } from './Footer'
